@@ -60,6 +60,8 @@ body {
 .img12 {
     transition: all .3s !important;
     cursor: pointer !important;
+    width: 400px !important; 
+    height: 261px !important;
 }
 
 .img12:hover {
@@ -260,6 +262,16 @@ body {
     border-radius: 5px !important;
 }
 
+.nameinp2 {
+    width: 100% !important;
+    height: 41.05px !important;
+    background-color: #FFFCFC !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0px 4px 7px rgba(236, 234, 234, 0.25) !important;
+    border-radius: 5px !important;
+}
+
 .nameinp::placeholder {
     font-family: 'Montserrat' !important;
     font-style: normal !important;
@@ -299,4 +311,76 @@ body {
 .questbutt:hover {
     color: #EC9015 !important;
     border-radius: 10px 55px / 55px 10px !important;
+}
+
+footer {
+    margin-top: 250px !important;
+}
+
+.paddingtest {
+    padding: 48px !important;
+}
+
+.burgermenubutt {
+    outline: none !important;
+    border: none !important;
+}
+
+.burgermenubutt:focus {
+    border: none !important;
+    border: 2px solid #EC9015 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .img12 {
+        width: 100% !important;
+    }
+
+    .h3-house {
+        font-size: 32px !important;
+    }
+
+    .plybtn1 {
+        top: 20% !important;
+        left: 40% !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .house-1 {
+        width: 100% !important;
+    }
+
+    .p-turnkey {
+        margin-left: 0 !important;
+    }
+
+    .p-price {
+        margin-left: 74px !important;
+    }
+
+    .buybutt {
+        width: 100% !important;
+    }
+
+    .questioninp {
+        height: 145px !important;
+    }
+
+    .questbutt {
+        margin-top: 20px !important;
+    }
+
+    footer {
+        margin-top: 0 !important;
+    }
+
+    .navitems1 {
+        font-size: 16px !important;
+    }
+
+    .paddingtest {
+        padding: 0 !important;
+    }
 }
