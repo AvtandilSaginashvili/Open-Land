@@ -69,6 +69,10 @@ body {
     border-radius: 25px !important;
 }
 
+.video {
+    height: 800px !important;
+}
+
 .plybtn1 {
     position: absolute !important;
     top: 280px !important;
@@ -382,5 +386,9 @@ footer {
 
     .paddingtest {
         padding: 0 !important;
+    }
+
+    .video {
+        height: auto !important;
     }
 }
